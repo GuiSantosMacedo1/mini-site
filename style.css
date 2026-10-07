@@ -88,3 +88,36 @@ header{
   border-radius: 8px;
   margin-right: 163px;
 }
+
+.informacoes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.texto-informacoes {
+  margin: 90px 72px 72px 94px;
+  text-decoration: none;
+
+  & h2 {
+    font-size: 72px;
+    color: #0E5A73;
+  }
+
+  & ul {
+    margin-left: 22px;
+  }
+
+  & li {
+    font-size: 24px;
+    color: #4C6169;
+    line-height: 140%;
+  }
+}
+
+.imagem-informacoes {
+  width: 420px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 163px;
+}
