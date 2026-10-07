@@ -37,6 +37,8 @@ header{
   width:1243px;
   height:3px;
   background-color:#C5D3D8;
+  position: relative;
+  left: 102px
 }
 
 .apresentacao{
@@ -47,7 +49,6 @@ header{
 
 .texto-apresentacao{
   margin: 90px 72px 72px 94px;
-
   & h2{
     font-size:172px
   } & p{
@@ -61,4 +62,29 @@ header{
   margin-right:163px;
   border-radius: 8px;
   margin-top: 69px;
+}
+.curiosidades{
+  display:flex;
+  align-items:center;
+  width: 100%;
+}
+.texto-curiosidades{
+  margin: 90px 72px 72px 94px;
+  text-decoration: none;
+  & h2 {
+    font-size: 72px;
+    color:#0E5A73;
+  }& ul{
+    margin-left:22px;
+  } & li {
+    font-size: 24px;
+    color: #4C6169;
+    line-height: 140%;
+  }
+}
+.imagem-curiosidades{
+  width: 420px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 163px;
 }
