@@ -91,3 +91,36 @@ header {
     border-radius: 8px;
   }
 }
+
+.caracteristicas {
+  margin: 72px 72px 72px 94px;
+}
+
+.caracteristicas-titulo {
+  font-size: 70px;
+  color: #0E5A73;
+}
+
+.caracteristicas-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 122px;
+  width: 98%;
+
+  & ul {
+    margin-left: 24px;
+    padding-top: 40px;
+  }
+
+  & li {
+    font-size: 24px;
+    color: #4C6169;
+    line-height: 32px;
+  }
+
+  & .imagem-caracteristicas {
+    width: 521px;
+    height: 327px;
+    border-radius: 8px;
+  }
+}
