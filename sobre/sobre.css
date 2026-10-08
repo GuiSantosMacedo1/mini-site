@@ -76,7 +76,6 @@ header {
   align-items: center;
   gap: 122px;
   width: 98%;
-
   & ul{
     margin-left:24px;
     padding-top:40px;
@@ -84,7 +83,7 @@ header {
   & li{
     font-size:24px;
     color: #4C6169;
-    line-height: 29px;
+    line-height: 32px;
   }
   & .imagem-historia {
     width: 521px;
