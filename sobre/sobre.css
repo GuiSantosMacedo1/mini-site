@@ -124,3 +124,22 @@ header {
     border-radius: 8px;
   }
 }
+
+.localizacao {
+  margin: 72px 72px 72px 94px;
+}
+.localizacao-titulo {
+  font-size: 70px;
+  color: #0E5A73;
+}
+.localizacao-conteudo {
+  color: #4C6169;
+  & p {
+    font-size: 24px;
+  }
+}
+
+iframe{
+  position: relative;
+  left: 20%;
+}
