@@ -78,7 +78,12 @@ header {
   width: 98%;
   & ul{
     margin-left:24px;
-    padding-top:40px;
+    list-style: none;
+      & h3 {
+        font-size: 24px;
+        color: #0E5A73;
+        margin-bottom: 8px;
+    }
   }
   & li{
     font-size:24px;
@@ -109,7 +114,12 @@ header {
 
   & ul {
     margin-left: 24px;
-    padding-top: 40px;
+    list-style: none;
+    & h3 {
+      font-size: 24px;
+      color: #0E5A73;
+      margin-bottom: 8px;
+    }
   }
 
   & li {
@@ -142,4 +152,42 @@ header {
 iframe{
   position: relative;
   left: 20%;
+}
+
+.curiosidades {
+  margin: 72px 72px 72px 94px;
+}
+
+.curiosidades-titulo {
+  font-size: 70px;
+  color: #0E5A73;
+}
+
+.curiosidades-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 122px;
+  width: 98%;
+
+  & ul {
+    margin-left: 24px;
+    list-style: none;
+    & h3 {
+      font-size: 32px;
+      color: #0E5A73;
+      margin-bottom: 8px;
+    }
+  }
+
+  & li {
+    font-size: 24px;
+    color: #4C6169;
+    line-height: 32px;
+  }
+
+  & .imagem-curiosidades {
+    width: 521px;
+    height: 327px;
+    border-radius: 8px;
+  }
 }
