@@ -76,6 +76,7 @@ header {
   align-items: center;
   gap: 122px;
   width: 98%;
+  margin-top: 16px;
   & ul{
     margin-left:24px;
     list-style: none;
@@ -110,6 +111,7 @@ header {
   display: flex;
   align-items: center;
   gap: 122px;
+  margin-top: 16px;
   width: 98%;
 
   & ul {
@@ -168,7 +170,8 @@ iframe{
   align-items: center;
   gap: 122px;
   width: 98%;
-
+  margin-top: 16px;
+  
   & ul {
     margin-left: 24px;
     list-style: none;
