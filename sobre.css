@@ -203,3 +203,81 @@ iframe{
   padding: 8px 478px 19px;
   text-align: center;
 }
+
+@media (max-width: 1010px) {
+  header {
+    padding: 18px 24px;
+  }
+
+  .apresentacao,
+  .historia,
+  .caracteristicas,
+  .localizacao,
+  .curiosidades {
+    flex-direction: column;
+    text-align: center;
+    margin: 48px 24px;
+  }
+
+  .apresentacao h2,
+  .historia-titulo,
+  .caracteristicas-titulo,
+  .localizacao-titulo,
+  .curiosidades-titulo {
+    font-size: clamp(36px, 10vw, 58px);
+  }
+
+  .linha-separadora {
+    left: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* .texto-apresentacao, */
+  .historia-conteudo,
+  .caracteristicas-conteudo,
+  .curiosidades-conteudo {
+    width: 100%;
+    margin: 32px 0 0;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .historia-conteudo ul,
+  .caracteristicas-conteudo ul,
+  .curiosidades-conteudo ul {
+    margin-left: 0;
+  }
+
+  .texto-apresentacao p,
+  .historia-conteudo p,
+  .caracteristicas-conteudo p,
+  .curiosidades-conteudo p,
+  .localizacao-conteudo p {
+    font-size: 20px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .apresentacao .imagem-apresentacao,
+  .historia-conteudo .imagem-historia,
+  .caracteristicas-conteudo .imagem-caracteristicas,
+  .curiosidades-conteudo .imagem-curiosidades {
+    width: min(420px, 100%);
+    height: auto;
+    margin: 0 auto 48px;
+  }
+
+  iframe {
+    display: block;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .rodape {
+    padding: 8px 24px 19px;
+  }
+}
