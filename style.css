@@ -45,24 +45,33 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  gap:40px;
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 24px;
 }
 
 .texto-apresentacao{
-  margin: 90px 72px 72px 94px;
+  flex:1;
+  min-width:0;
+  margin:90px 0 72px;
   & h2{
-    font-size:172px
+    font-size:clamp(72px, 12vw, 172px);
+    overflow-wrap:break-word;
   } & p{
     font-size:24px;
     color:#4C6169;
   }
 }
 .imagem-apresentacao{
+  display:block;
+  max-width:100%;
   width: 420px;
   height: auto;
-  margin-right:163px;
   border-radius: 8px;
   margin-top: 69px;
 }
+
 .curiosidades{
   display:flex;
   align-items:center;
@@ -72,7 +81,7 @@ header{
   margin: 90px 72px 72px 94px;
   text-decoration: none;
   & h2 {
-    font-size: 72px;
+    font-size: clamp(52px, 12vw, 72px);
     color:#0E5A73;
   }& ul{
     margin-left:22px;
@@ -98,9 +107,9 @@ header{
 .texto-informacoes {
   margin: 90px 72px 72px 94px;
   text-decoration: none;
-
+  
   & h2 {
-    font-size: 72px;
+    font-size: clamp(52px, 12vw, 72px);
     color: #0E5A73;
   }
 
@@ -129,4 +138,37 @@ header{
   padding-bottom: 19px;
   padding: 8px 478px 19px;
   text-align: center;
+}
+@media (max-width: 1010px){
+  header{
+    padding:18px 24px;
+  }
+
+  .apresentacao, .informacoes, .curiosidades{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .linha-separadora{
+    left:10%;
+  }
+
+  .texto-apresentacao, .texto-informacoes, .texto-curiosidades{
+    margin:48px 0 0;
+  }
+
+  .texto-apresentacao p, .texto-informacoes p, .texto-curiosidades p{
+    font-size:20px;
+  }
+  li{
+    list-style: none;
+  }
+
+  .imagem-apresentacao, .imagem-informacoes, .imagem-curiosidades{
+    width: min(420px, 100%);
+    margin:0 auto 48px;
+  }
+  .rodape{
+    padding:8px 24px 19px;
+  }
 }
