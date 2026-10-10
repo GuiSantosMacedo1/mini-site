@@ -60,7 +60,7 @@ header {
 }
 .contato-descricao {
   font-size: 24px;
-  color: #14262E;
+  color: #4C6169;
   margin-bottom:72px;
 }
 
@@ -110,4 +110,57 @@ header {
   padding-bottom: 19px;
   padding: 8px 478px 19px;
   text-align: center;
+}
+
+@media (max-width: 1010px) {
+  header {
+    padding: 18px 24px;
+  }
+
+  .contato {
+    margin: 48px 24px;
+  }
+
+  .contato-titulo {
+    font-size: clamp(36px, 10vw, 58px);
+  }
+
+  .contato-descricao {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+
+  .linha-separadora {
+    left: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .formulario {
+    margin-top: 48px;
+    gap: 16px;
+  }
+
+  .formulario h3 {
+    font-size: clamp(32px, 9vw, 48px);
+  }
+
+  .formulario label {
+    font-size: 20px;
+  }
+
+  .formulario input,
+  .formulario textarea,
+  .formulario select {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .formulario button {
+    width: min(200px, 100%);
+  }
+
+  .rodape {
+    padding: 8px 24px 19px;
+  }
 }
