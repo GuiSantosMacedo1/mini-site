@@ -42,6 +42,14 @@ header {
   background-color: #C8102E;
 }
 
+.linha-separadora {
+  height: 3px;
+  width: 81%;
+  background-color: #C5D3D8;
+  position: relative;
+  left: 102px;
+}
+
 .contato {
   margin: 90px 147px;
 }
